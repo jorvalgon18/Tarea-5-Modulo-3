@@ -1,3 +1,40 @@
+/*Jorge Rodolfo de Jesús Valdés González
+Modulo 3 Tarea 5 */
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#opciones{
+    display: flex;
+    width: 33.33%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.contenedor {
+    margin: 0 auto;
+}
+
+
+#ejercicio1, #ejercicio2,
+#ejercicio3, #ejercicio4,
+#ejercicio5 {
+    display: none;
+}
+
 /*Estilos ejercicio 1 NO MODIFICAR*/
 #ejercicio1 .contenedor {
     width: 25%;
@@ -22,7 +59,7 @@
 /*---------------------------------*/
 /*Coloque sus estilos para formar la bandera de Guatemala*/
 #ejercicio1 .contenedor {
-    display: inline-flex;
+    display: flex;
     height: 30vh;
 }
 

@@ -7,9 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto banderas</title>
     <link rel="stylesheet" href="css/style-ejercicio1-resuelto.css">
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
+    <h1>Proyecto Banderas</h1>
+    <h1>Jorge Rodolfo de Jesús Valdés González</h1>
+    <form>
+        <fieldset id="opciones">
+            <legend>Seleccione bandera a visualizar</legend>
+            <p>
+                <label for="bandera">Seleccionar Bandera:</label>
+                <select id="banderas" onchange="seleccionbandera()">
+                    <option value="#" disabled selected>Seleccione</option>
+                    <option value="1">Guatemala</option>
+                    <option value="2">Niger/India</option>
+                    <option value="3">Paises Bajos/Francia</option>
+                    <option value="4">Suecia</option>
+                    <option value="5">Suiza</option>
+                </select>
+            </p>
+        </fieldset>
+    </form>
     <h1>Trabajando con banderas</h1>
     <article id="ejercicio1">
         <h2>Ejercicio 1: Guatemala</h2>
